@@ -81,29 +81,6 @@ The code interacts with a GORILLA server. Ensure that:
 
 ---
 
-## Example Usage
-
-1. Enter the following prompt in the Streamlit app:
-   ```
-   Write a Python function to calculate the factorial of a number.
-   ```
-
-2. Select a model option, e.g., `gorilla-7b-hf-v1`.
-
-3. The application generates and displays the following code:
-   ```python
-   def factorial(n):
-       if n == 0:
-           return 1
-       else:
-           return n * factorial(n-1)
-   print(factorial(5))
-   ```
-
-4. The output is executed and displayed:
-   ```
-   120
-   ```
 
 ---
 
