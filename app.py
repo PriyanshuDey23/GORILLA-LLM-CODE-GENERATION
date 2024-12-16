@@ -46,7 +46,7 @@ def run_generated_code(file_path):
 st.set_page_config(layout="wide")
 
 def main():
-    st.title("GORILLA LLM CODE GENERATION 🦍‍👤")
+    st.title("GORILLA LLM APP 🦍‍👤")
 
     input_prompt = st.text_area("Enter your prompt below:")
 
